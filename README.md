@@ -4,7 +4,7 @@
 
         Armour, J., Deakin, S., &amp; Siems, M. (2016). CBR Leximetric Datasets. University of Cambridge. https://doi.org/10.17863/CAM.506
 
-**overall_trends** is Figure I of the paper, showcasing the evolution of the five subdimensions of the CBR-LRI, between 1970-2022.
+**overall_trends** is Figure II of the paper, showcasing the evolution of the standardized means of the CBR-LRI (indicators 1-31) and the number of inspectors per 100K employed, between 2009-2022.
 
 **scatterplot_burdencapacity_coverage** is Figure III of the paper, showcasing the country average values and the regression line, for the period 2009-2022.
 
