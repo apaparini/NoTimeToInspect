@@ -1,25 +1,3 @@
-*==============================================================================*
-* compile_cbr.do
-* Compiles all country tabs from the CBR Labour Regulation Index (2023) 
-* into a single long-format panel dataset.
-*
-* Input:  cbr-labour-regulation-index-2023-dataset.xlsx
-* Output: cbr_combined.dta, cbr_combined.csv
-*
-* Notes:
-*   - 117 countries, 1970-2022
-*   - Variables cbr_1 to cbr_40 are the 40 individual CBR indicators
-*   - Two non-standard layouts handled separately:
-*       Croatia: blank row 0, country name in row 1, data from 1991
-*       Panama:  no country name in col A; year in col A (not col C)
-*   - Country names taken from cell A1 (or A2 for Croatia), not tab names,
-*     so names are properly formatted (e.g. "Costa Rica", "Dominican Republic")
-*   - El Salvador and Guatemala are absent from CBR 2023
-*
-* Author: [your name]
-* Date:   March 2026
-*==============================================================================*
-
 * ---------------------------------------------------------------------------- *
 * 0. Setup
 * ---------------------------------------------------------------------------- *
